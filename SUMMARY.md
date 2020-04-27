@@ -6,7 +6,7 @@
 * [Authentication Service](authentication-service.md)
 * [IUserService](iuserservice.md)
 * [IAuthUser](iauthuser.md)
-* [Customisation options](customisation-options.md)
+* [Customization Options](customization-options.md)
 * [Interception points](interception-points.md)
 
 ## External links
