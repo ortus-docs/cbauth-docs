@@ -1,4 +1,4 @@
-# What's new
+# What's New
 
 ## v5.0.1
 

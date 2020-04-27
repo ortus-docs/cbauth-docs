@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [What's new](whats-new.md)
-* [Installation and usage](installation-and-usage.md)
+* [What's New](whats-new.md)
+* [Installation and Usage](installation-and-usage.md)
 * [Authentication Service](authentication-service.md)
 * [IUserService](iuserservice.md)
 * [IAuthUser](iauthuser.md)
