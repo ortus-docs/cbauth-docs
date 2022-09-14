@@ -53,7 +53,7 @@ You don't have to formally implement the interface in your code.
 
 ## Usage
 
-Before you can use `cbauth` you have to create a `UserService` which implement the [IUserInterface](iuserservice.md).  
+Before you can use `cbauth` you have to create a `UserService` which implement the [IUserService](iuserservice.md).  
 
 ```javascript
 
