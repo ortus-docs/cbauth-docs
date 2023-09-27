@@ -1,9 +1,9 @@
 # IAuthUser
 
-You have to create a User component which responds to the `getId()` method. This user can be retrieved by the retrieve methods from your [`IUserService`](iuserservice.md)
+You have to create a User component which responds to the `getId()` method. This user will be retrieved by the retrieve methods from your [`IUserService`](iuserservice.md)
 
-```text
-interface{
+```javascript
+interface {
 
     /**
      * Return the unique identifier for the user
@@ -27,6 +27,5 @@ interface{
 ```
 
 {% hint style="warning" %}
-Combined with `cbsecurity` or `cbguard` you might have to specify additional methods for checking roles or permissions.
+Combined with [`cbsecurity`](https://coldbox-security.ortusbooks.com/usage/authentication-services#user-interface) or [`cbguard`](https://www.forgebox.io/view/cbguard) you might have to specify additional methods for checking roles or permissions.
 {% endhint %}
-

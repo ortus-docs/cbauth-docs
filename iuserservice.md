@@ -1,9 +1,9 @@
 # IUserService
 
-You have to create a Userservice and [specify a userServiceClass in your modulesettings](installation-and-usage.md#configuration).  This  UserService needs to have three methodes, according to `cbauth.interfaces.IUserService`
+You have to create a `UserService` and [specify a `userServiceClass` in your `moduleSettings`](installation-and-usage.md#configuration).  This  `UserService` needs to have three methods, according to `cbauth.interfaces.IUserService`
 
 ```javascript
-interface{
+interface {
 
 	/**
 	 * Verify if the incoming username/password are valid credentials.
@@ -31,13 +31,13 @@ interface{
 }
 ```
 
-If you want to implement a UserService for `cbauth` combined with `cbsecurity` you will find your interface specification in `cbsecurity.interfaces.IUserService`.  Methods in this spec are equal.
-
-The user component returned by both `retrieve..` methods needs to respond to `getId()` as specified by the [IAuthUser](iauthuser.md) interface. 
-
-{% hint style="warning" %}
-Combined with `cbsecurity` or `cbguard` you might have to specify additional methods for checking roles or permissions.
+{% hint style="info" %}
+If you want to implement a `UserService` for `cbauth` combined with `cbsecurity` you will find your interface specification in [`cbsecurity.interfaces.IUserService`](https://coldbox-security.ortusbooks.com/usage/authentication-services#authentication-service-interface).  Methods in this spec are equal.
 {% endhint %}
 
+The user component returned by both `retrieve...` methods needs to respond to `getId()` as specified by the [IAuthUser](iauthuser.md) interface.&#x20;
 
+{% hint style="warning" %}
+Combined with [`cbsecurity`](https://coldbox-security.ortusbooks.com/usage/authentication-services#authentication-service-interface) or [`cbguard`](https://www.forgebox.io/view/cbguard) you might have to specify additional methods for checking roles or permissions.
+{% endhint %}
 
